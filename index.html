@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script>
+		function fun_1() {
+		var chbox;
+		chbox=document.getElementById('chbox');
+			if (chbox.checked) {
+				document.getElementById('ul').style.display = 'block';
+			} 
+			else {
+				document.getElementById('ul').style.display = 'none';
+			}
+		}
+	</script>
+</head>
+<body>
+	<div class="maket">
+		<div class="block-1">
+			<header class="main_header">
+				<div class="main_logo">
+					<div class="logo">
+						<span class="logo_1"></span>
+						<span class="logo_2"></span>
+						<span class="logo_1"></span>
+					</div>
+					<span class="text_logo">BlueRex</span>
+				</div>
+				<nav>
+					<a href="" class="nav">Home</a>
+					<a href="" class="nav">About</a>
+					<a href="" class="nav">Features</a>
+					<a href="" class="nav">Product</a>
+					<a href="" class="nav">Reviews</a>
+					<a href="" class="nav">Faq</a>
+					<a href="" class="nav">Contact</a>
+					<div class="burger">
+						<ul id="ul">
+							<li class='li_burger'><a href="">Home</a></li>
+							<li class='li_burger'><a href="">About</a></li>
+							<li class='li_burger'><a href="">Features</a></li>
+							<li class='li_burger'><a href="">Product</a></li>
+							<li class='li_burger'><a href="">Reviews</a></li>
+							<li class='li_burger'><a href="">Faq</a></li>
+							<li class='li_burger'><a href="">Contact</a></li>
+						</ul>
+						<div class="burger-menu">
+							<span class="burger_1"></span>
+							<span class="burger_1"></span>
+							<span class="burger_1"></span>
+						</div>
+						<input type="checkbox" id="chbox" onchange="fun_1()">
+					</div>
+				</nav>
+			</header>
+			<article class="main_text" >
+				<span class="cursive">We are best and creative agency</span>
+				<h1>We turn creative ideas <br> into your business.</h1>
+				<p>Lorem ipsum dolor sit, amet consectetur, adipisicing elit. Sed <br> sodales enim ut rhoncus lorem ipsum ese terds.</p>
+				<div class="buttons">
+					<button class="button_1">OUR STORY</button>
+					<button class="button_2">READ MORE</button>
+				</div>
+			</article>
+		</div>
+		<div class="block-2">
+			<img src="pictures/1234.png" alt="" class="world_map">
+			<div class="about_company">
+				<span class="cursive">Dream Big Inspire the World</span>
+				<h1>We turn creative ideas <br> into your business.</h1>
+				<nav class="button_nav">
+					<a href="" class="button_nav_1" id="button">WEB DESIGN</a>
+					<a href="" class="button_nav_2" id="button">MOBILE APP</a>
+					<a href="" class="button_nav_3" id="button">BRANDING</a>
+					<a href="" class="button_nav_4" id="button">BRANDING</a>
+				</nav>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil <br> provident, modi optio eligendi, doloremque nisi, exercitationem <br> velit dolorem,  sed dignissimos omnis ipsum voluptatibus similique <br> ex vitae ipsa. Aliquid, recusandae aspernatur.</p>
+				<div>
+					<span class="read_more_span"></span>
+					<button class="read_more">READ MORE</button>
+				</div>
+			</div>
+			<div class="our_achievement">
+				<div class="our_achievement_1">
+					<img src="pictures/Screenshot_5.png" alt="">
+					<h1>500+</h1>
+					<p class="about_achievement">Successfully <br> completed projects</p>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium inventore exercitationem, tenetur quidem, explicabo, at maxime voluptatum cumque voluptatibus eveniet quasi libero deleniti aspernatur.</p>
+				</div>
+				<div class="our_achievement_2">
+					<img src="pictures/Screenshot_5.png" alt="">
+					<h1>254+</h1>
+					<p class="about_achievement">Highly specialised <br> employees</p>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium inventore exercitationem, tenetur quidem, explicabo, at maxime voluptatum cumque voluptatibus eveniet quasi libero deleniti aspernatur.</p>
+				</div>
+				<div class="our_achievement_3">
+					<img src="pictures/Screenshot_5.png" alt="">
+					<h1>45+</h1>
+					<p class="about_achievement">Awards <br> around the world</p>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium inventore exercitationem, tenetur quidem, explicabo, at maxime voluptatum cumque voluptatibus eveniet quasi libero deleniti aspernatur.</p>
+				</div>
+			</div>
+		</div>
+		<div class="block-3">
+			<span class="cursive">Let's Grow Together</span>
+			<h1>We turn creative ideas into your business.</h1>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos facere, reprehenderit cumque ea eius <br> vel et, voluptates rem debitis, atque libero deserunt, placeat inventore quidem quo laboru</p>
+			<div>
+				<span class="read_more_span"></span>
+				<button class="read_more">READ MORE</button>
+			</div>
+		</div>
+		<div class="block-4">
+			<div class="our_services">
+				<span class="cursive">We are best and creative agency </span>
+				<h1>We turn creative ideas <br> into your biseness.</h1>
+				<p class="lorem_ipsum">Lorem ipsum dolor sit amet consectetur adipisicing <br> elit. Voluptatibus  minima similique corrupti, blanditiis, <br> accusamus quam eos  maiores iste incidunt dicta sed, <br> exercitationem ut aspernatur  quos illum! Ratione eaque</p>
+				<div class="main_our_services">
+					<div class="our_services_1">
+						<img src="pictures/Screenshot_8.png" alt="">
+						<h2>Graphic Design</h2>
+						<p>Lorem ipsum dolor, sit, amet <br> consectetur  adipisicing elit. <br> Distinctio, aliquid illum  ratione <br> mollitia est  officia,  consequatur    </p>
+						<div>
+							<span class="read_more_span"></span>
+							<button class="read_more">READ MORE</button>
+						</div>
+					</div>
+					<div class="our_services_2">
+						<img src="pictures/Screenshot_9.png" alt="">
+						<h2>Graphic Design</h2>
+						<p>Lorem ipsum dolor, sit, amet <br> consectetur  adipisicing elit. <br> Distinctio, aliquid illum  ratione <br> mollitia est  officia,  consequatur    </p>
+						<div>
+							<span class="read_more_span"></span>
+							<button class="read_more">READ MORE</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="img_our_services">
+				<img src="pictures/Screenshot_7.png" alt="" class="img_media" id="media_img_1">
+				<div class="media" id="media_1">
+					<span class="circle"><div class="triangle"></div></span>
+				</div>
+				<button class="media_button" id="media_button_1"></button>
+				<video src="pictures/Bleach001.mp4" width="350" height="288" controls='controls' poster="pictures/Screenshot_7.png" id="media_video"></video>
+			</div>
+			<script>
+				document.getElementById('media_button_1').onclick = function() {
+			      document.getElementById('media_1').hidden = true;
+			      document.getElementById('media_img_1').hidden = true;
+			      document.getElementById('media_button_1').hidden = true;
+			      document.getElementById('media_video').style.transform = 'translate(0, 0)';
+			    }
+			</script>
+		</div>
+		<div class="block-5">
+			<div class="our_work_header">
+				<h1>Our Recent Work</h1>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, sequi eveniet perferendis <br> dolorem ducimus, facilis! Distinctio debitis architecto eum odio error, molestiae <br> autem quidem modi provident cupiditate amet labore magni. Lorem ipsum dolor sit amet <br> consectetur, adipisicing elit. Aspernatur, voluptatum, recusandae minus temporibus explicabo </p>
+				<div class="our_work_nav">
+					<a href="" class="our_work_nav_1" id="button">WEB DESIGN</a>
+					<a href="" class="our_work_nav_2" id="button">MOBILE APP</a>
+					<a href="" class="our_work_nav_3" id="button">BRANDING</a>
+					<a href="" class="our_work_nav_4" id="button">BRANDING</a>
+				</div>
+			</div>
+			<div class="our_work_main">
+				<img src="pictures/Screenshot_10.png" alt="">
+				<img src="pictures/Screenshot_11.png" alt="">
+				<img src="pictures/Screenshot_12.png" alt="">
+				<img src="pictures/Screenshot_13.png" alt="">
+				<img src="pictures/Screenshot_14.png" alt="">
+				<img src="pictures/Screenshot_15.png" alt="">
+				<img src="pictures/Screenshot_16.png" alt="">
+				<img src="pictures/Screenshot_17.png" alt="">
+				<img src="pictures/Screenshot_18.png" alt="">
+			</div>
+			<div>
+				<span class="read_more_span"></span>
+				<button class="read_more">READ MORE</button>
+			</div>
+		</div>
+		<div class="block-6">
+			<img src="pictures/Screenshot_19.png" alt="">
+			<img src="pictures/Screenshot_20.png" alt="">
+			<img src="pictures/Screenshot_21.png" alt="">
+			<img src="pictures/Screenshot_22.png" alt="">
+			<img src="pictures/Screenshot_23.png" alt="">
+			<img src="pictures/Screenshot_24.png" alt="">
+			<img src="pictures/Screenshot_25.png" alt="">
+			<img src="pictures/Screenshot_26.png" alt="">
+		</div>
+		<div class="block-7">
+			<span class="cursive" id="cursive_id">Our Happy Client</span>
+			<h1>Testimonials</h1>
+			<div class="our_client">
+				<span class="kovichki">&#8220;</span>
+				<div class="our_client_1">
+					<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br> A, similique officia consequatur facere aliquid tempora est ex <br> perspiciatis incidunt iusto unde repellat, ratione vero nulla <br> corrupti, sint dolores</p>
+					<div class="stars">★★★★★</div>
+					<p>Mr.John Doe</p>
+				</div>
+			</div>
+		</div>
+		<div class="block-8">
+			<h1>Need Help?</h1>
+			<h2>Don't Forget to Contact With Us</h2>
+			<p>Lorem ipsum dolor, sit amet consectetur, adipisicing elit. Distinctio obcaecati modi ex, mollitia nobis dolor corrupti sed debitis, sequi deserunt  officiis incidunt voluptatibus laudantium, dolores minus numquam. Praesentium, officiis eius.</p>
+			<form action="">
+				<input type="text" placeholder="Name" class="need_help_input">
+				<input type="email" placeholder="Email" class="need_help_input">
+				<div class="submit_main">
+					<input type="submit" value="SUBMIT" class="submit">
+					<span class="submit_span"></span>
+				</div>
+			</form>
+		</div>
+		<div class="block-9">
+			<a href="" class="social_nav">facebook</a>
+			<a href="" class="social_nav">twitter</a>
+			<a href="" class="social_nav">linkedin</a>
+			<a href="" class="social_nav">instagram</a>
+			<a href="" class="social_nav">behance</a>
+		</div>
+		<div class="block-10">
+			<img src="pictures/12345.png" alt="" class="world_map" id="world_map_2">
+			<div class="quick_links_main">
+				<div class="quick_links">
+					<div class="quick_links_1" id="quick_links_id">
+						<h2>Company</h2>
+						<a href="">About</a>
+						<a href="">Approach</a>
+						<a href="">Sustainability</a>
+						<a href="">Careers</a>
+						<a href="">News</a>
+					</div>
+					<div class="quick_links_2" id="quick_links_id">
+						<h2>Company</h2>
+						<a href="">About</a>
+						<a href="">Approach</a>
+						<a href="">Sustainability</a>
+						<a href="">Careers</a>
+						<a href="">News</a>
+					</div>
+					<div class="quick_links_3" id="quick_links_id">
+						<h2>Company</h2>
+						<a href="">About</a>
+						<a href="">Approach</a>
+						<a href="">Sustainability</a>
+						<a href="">Careers</a>
+						<a href="">News</a>
+					</div>
+					<div class="quick_links_4" id="quick_links_id">
+						<h2>Company</h2>
+						<a href="">About</a>
+						<a href="">Approach</a>
+						<a href="">Sustainability</a>
+						<a href="">Careers</a>
+						<a href="">News</a>
+					</div>
+				</div>
+				<div class="quick_links_pic">
+					<img src="pictures/Screenshot_30.png" alt="" class="quick_links_pictures">
+					<img src="pictures/Screenshot_31.png" alt="" class="quick_links_pictures"><br>
+					<img src="pictures/Screenshot_32.png" alt="" class="quick_links_pictures">
+					<img src="pictures/Screenshot_33.png" alt="" class="quick_links_pictures">
+				</div>
+			</div>
+		</div>
+		<footer class="main_footer">
+				<p>&copy; 2022 Theme by psdfreebies.com</p>
+				<ul class="ul_footer">
+					<li class="li_footer">Privacy</li>
+					<li class="li_footer">Terms of use</li>
+					<li class="li_footer">Site map</li>
+				</ul>
+			</footer>
+	</div>
+</body>
+</html>
